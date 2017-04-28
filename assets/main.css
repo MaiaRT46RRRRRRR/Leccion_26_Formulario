@@ -1,0 +1,63 @@
+
+h4,h3{
+	font-family: 'Poiret One', cursive;
+}
+
+label , button{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+.contenedor{
+	background-color: #D5CFC1;
+	height: 550px;
+	padding: 9px;
+	width: 460px;
+	box-sizing: border-box;
+}
+.b1-registrar-box{
+	padding: 46px 21px 20px 21px;
+	background: #fff;
+    position: relative;
+}
+form{
+	position: absolute;
+	left: 10px;
+	margin: auto;
+    padding: 0;
+    border: 0;
+    font-weight: 340px;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+input{
+	border: 1px solid #43575e;
+    background: transparent;
+    padding: 0 25px 0 15px;
+    width: 250px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 30px;
+    color: #43575e;
+    font-size: 14px;
+    border-radius: 7px;
+}
+g-input{  
+	width: 250px;
+    margin:10px;
+    overflow: hidden;
+    display: inline-block;
+    background: transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+.estilo{
+	width:400px;
+	height:100px;
+	border: 2px solid grey;
+	border-radius: 6px;
+}
