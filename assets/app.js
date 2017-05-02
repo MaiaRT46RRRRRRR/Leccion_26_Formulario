@@ -1,11 +1,13 @@
-var cont1= document.getElementById("Enviar");
+var enviar= document.getElementById("enviar");
 var pasw1= document.getElementById("pasw1");
-var pasw2= document.getElementById("psw2");
+var pasw2= document.getElementById("pasw2");
 
-cont1.addEventListener("click",function(){
-	if (pasw1.value==pasw2.value){
+enviar.addEventListener("click", function(){
+	if (pasw1.value == pasw2.value){
 		alert("Correcto");
 	}else{
 		alert("Las contraseñas deben de ser iguales");
+		pasw2.focus();
 	}
-})
+});
+
